@@ -4,6 +4,7 @@ def decor(func):
         print("ineer method")
         func()
     return inner
+#dummy change
 def outer():
     print("outer method")
 
