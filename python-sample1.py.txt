@@ -1,4 +1,4 @@
-#Sample programe of decorate
+#Sample1 programe of decorate
 def decor(func):
     def inner():
         print("ineer method")

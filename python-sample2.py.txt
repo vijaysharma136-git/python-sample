@@ -1,5 +1,5 @@
-#Sample programe of decorate
 def decor(func):
+#Sample2 programe of decorate
     def inner():
         print("ineer method")
         func()
