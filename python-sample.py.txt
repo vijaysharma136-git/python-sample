@@ -1,0 +1,13 @@
+def decor(func):
+    def inner():
+        print("ineer method")
+        func()
+    return inner
+def outer():
+    print("outer method")
+
+def add():
+    print("adding")
+
+route = decor(outer)
+route()
